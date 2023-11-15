@@ -1,0 +1,112 @@
+﻿@model IEnumerable<HappyVet.Models.ListaPrecio>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de Precios</h1>
+
+<p>
+    <div class="row">
+        <div class="col-sm">
+            <a asp-action="Create" class="btn btn-primary">Nueva Lista</a>
+            &nbsp;&nbsp;
+            <a asp-action="ImportarListaPrecio" class="btn btn-success">Importar</a>
+        </div>
+    </div>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vacuna)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaRegistro)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vacuna.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaRegistro)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+    </table>
+    @section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+
+        function mostrarDatos() {
+            const input = document.getElementById("inputExcel")
+
+            const formData = new FormData()
+
+            formData.append("ArchivoExcel", input.files[0])
+
+            fetch("/ListaPrecios/MostrarDatos",
+                {
+                    method: "POST",
+                    body: formData
+                })
+                .then((response) => { return response.json() })
+                .then((dataJson) => {
+                    dataJson.forEach((item) => {
+                        $("#tbData tbody").append(
+                            $("<tr>").append(
+                                $("<td>").text(item.Descripcion),
+                                $("<td>").text(item.VacunaRefId),
+                                $("<td>").text(item.Precio)
+                            )
+                        )
+                    })
+                })
+        }
+
+
+        function enviarDatos() {
+            const input = document.getElementById("inputExcel")
+
+            const formData = new FormData()
+
+            formData.append("ArchivoExcel", input.files[0])
+
+            fetch("ListaPrecios/EnviarDatos", {
+                method: "POST",
+                body: formData
+            })
+                .then((response) => { return response.json() })
+                .then((dataJson) => {
+                    alert(dataJson.mensaje);
+                })
+        }
+
+    </script>
+}

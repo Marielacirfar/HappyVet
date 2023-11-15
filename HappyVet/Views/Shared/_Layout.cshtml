@@ -1,0 +1,98 @@
+﻿@using Microsoft.AspNetCore.Identity;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["HappyVet"] - HappyVet</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HappyVet.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HappyVet</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>                      
+                    </ul>
+                </div>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Registro de mascotas
+                            </button>
+                            <ul class="dropdown-menu" style="">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="RegistroMascota" asp-action="Index">RegistroMascota</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="TipoAnimal" asp-action="Index">TipoAnimal</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Raza" asp-action="Index">Raza</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Tamaño" asp-action="Index">Tamaño</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Edad" asp-action="Index">Edad</a></li>
+                                
+                                <li>----------------------</li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="SignOut">Salir</a></li>
+                            </ul>
+                        </div>
+
+                        &nbsp;
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Salud
+                            </button>
+                            <ul class="dropdown-menu" style="">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Vacuna" asp-action="Index">Vacuna</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="ListaPrecio" asp-action="Index">Lista de Precio</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Detalle" asp-action="Index">Detalle</a></li>
+
+
+                            </ul>
+                        </div>
+
+                        &nbsp;
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Consulta
+                            </button>
+                            <ul class="dropdown-menu" style="">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Programar" asp-action="Index">Programar</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Funcion" asp-action="Index">Función</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Pedido" asp-action="Index">Pedido</a></li>
+
+
+                            </ul>
+                        </div>
+
+
+                    </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - HappyVet - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

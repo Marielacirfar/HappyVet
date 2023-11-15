@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HappyVet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HappyVet.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\archivos\\Libro1.xlsx",
+      "PackagePath": "staticwebassets\\archivos\\Libro1.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\046b7cce-aa8e-4558-9761-4965fa9d4305_Chow_Chow.jpg",
+      "PackagePath": "staticwebassets\\images\\046b7cce-aa8e-4558-9761-4965fa9d4305_Chow_Chow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\3b0bb32f-a9de-49e7-a51b-cc24227fe367_Gato_persa_Cachorro.jpg",
+      "PackagePath": "staticwebassets\\images\\3b0bb32f-a9de-49e7-a51b-cc24227fe367_Gato_persa_Cachorro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\40b6a3c3-b50d-46a8-a7cc-75e56d88aeb6_Mestizo.jpg",
+      "PackagePath": "staticwebassets\\images\\40b6a3c3-b50d-46a8-a7cc-75e56d88aeb6_Mestizo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\7304424e-1000-4e3d-81fc-04e66f93a39c_Gato_persa_Cachorro.jpg",
+      "PackagePath": "staticwebassets\\images\\7304424e-1000-4e3d-81fc-04e66f93a39c_Gato_persa_Cachorro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\78e34a5e-02c4-4558-b43c-65b204f5c967_gato_Siames_Adulto.jpg",
+      "PackagePath": "staticwebassets\\images\\78e34a5e-02c4-4558-b43c-65b204f5c967_gato_Siames_Adulto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\7add9cd5-d430-4f2a-974a-91886aa94677_Maltes_adulto.jpg",
+      "PackagePath": "staticwebassets\\images\\7add9cd5-d430-4f2a-974a-91886aa94677_Maltes_adulto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\8ab060a7-5eff-450d-88ff-af18828c01db_gato_Siames_Adulto.jpg",
+      "PackagePath": "staticwebassets\\images\\8ab060a7-5eff-450d-88ff-af18828c01db_gato_Siames_Adulto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\a7a1e716-2952-421e-a10f-ba996feb0bdd_gato_Siames_Adulto.jpg",
+      "PackagePath": "staticwebassets\\images\\a7a1e716-2952-421e-a10f-ba996feb0bdd_gato_Siames_Adulto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\aee7657a-d799-43ae-8d87-c2c1da0e5a54_Gato_persa_Cachorro.jpg",
+      "PackagePath": "staticwebassets\\images\\aee7657a-d799-43ae-8d87-c2c1da0e5a54_Gato_persa_Cachorro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\af5f2b0e-2c09-4e89-a265-0e968e71f5c3_Chow_Chow.jpg",
+      "PackagePath": "staticwebassets\\images\\af5f2b0e-2c09-4e89-a265-0e968e71f5c3_Chow_Chow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\b1e114a1-83a7-49cd-a3d9-18a258c839dd_Bichon-Maltes.jpg",
+      "PackagePath": "staticwebassets\\images\\b1e114a1-83a7-49cd-a3d9-18a258c839dd_Bichon-Maltes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\b5187070-0eaa-4f3f-abb6-f87cc63f9e61_Bichon-Maltes.jpg",
+      "PackagePath": "staticwebassets\\images\\b5187070-0eaa-4f3f-abb6-f87cc63f9e61_Bichon-Maltes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\c305d181-3048-4bf0-aef6-84935a055039_Chow_Chow.jpg",
+      "PackagePath": "staticwebassets\\images\\c305d181-3048-4bf0-aef6-84935a055039_Chow_Chow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\c59281d2-af5d-4e7e-b614-04fa9f473851_Gato_persa_Cachorro.jpg",
+      "PackagePath": "staticwebassets\\images\\c59281d2-af5d-4e7e-b614-04fa9f473851_Gato_persa_Cachorro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\cc3d6335-623f-4450-99e2-cf7027ff937c_balGati.jpg",
+      "PackagePath": "staticwebassets\\images\\cc3d6335-623f-4450-99e2-cf7027ff937c_balGati.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\cd85ccec-bbbf-4bc8-b1ca-9e55375d8c6d_Maltes_adulto.jpg",
+      "PackagePath": "staticwebassets\\images\\cd85ccec-bbbf-4bc8-b1ca-9e55375d8c6d_Maltes_adulto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\ed8a8773-d075-4ca0-b67c-d8a12f352fdd_Mestizo.jpg",
+      "PackagePath": "staticwebassets\\images\\ed8a8773-d075-4ca0-b67c-d8a12f352fdd_Mestizo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\f9301fc4-7998-4466-a5d4-28ef645b0135_gato_Siames_Adulto.jpg",
+      "PackagePath": "staticwebassets\\images\\f9301fc4-7998-4466-a5d4-28ef645b0135_gato_Siames_Adulto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HappyVet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.HappyVet.props",
+      "PackagePath": "build\\HappyVet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.HappyVet.props",
+      "PackagePath": "buildMultiTargeting\\HappyVet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.HappyVet.props",
+      "PackagePath": "buildTransitive\\HappyVet.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
