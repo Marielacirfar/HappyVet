@@ -1,0 +1,11 @@
+﻿@model HappyVet.Models.ConsultaVacuna
+ </br>
+<div class="form-row">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group col-md-6">
+        <select asp-for="VacunaRefId" class="form-control" asp-items="ViewBag.VacunaRefId">
+            <option value="">Seleccione una Vacuna</option>
+        </select>
+        <span asp-validation-for="VacunaRefId" class="text-danger"></span>
+    </div>
+</div>

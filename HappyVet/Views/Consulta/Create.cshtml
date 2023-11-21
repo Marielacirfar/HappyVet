@@ -1,0 +1,72 @@
+﻿@model HappyVet.Models.Consulta
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Consulta</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" id="form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FechaHoraConsulta" class="control-label"></label>
+                <input asp-for="FechaHoraConsulta" class="form-control" />
+                <span asp-validation-for="FechaHoraConsulta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RegistroMascotaRefId" class="control-label"></label>
+                <select asp-for="RegistroMascotaRefId" class ="form-control" asp-items="ViewBag.RegistroMascotaRefId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaRegistro" class="control-label"></label>
+                <input asp-for="FechaRegistro" class="form-control" />
+                <span asp-validation-for="FechaRegistro" class="text-danger"></span>
+            </div>
+
+             <div class="form-row">
+                <div class="form-group col-md-6">
+                    </br>
+                    <input class="btn btn-success" type="button" id="btnAdd" value="+ Agregar Vacuna" />
+                    
+                </div>
+            </div>
+           
+            <div class="form-row">
+                <div id="ConsultaVacunaContainer" class="form-group col-md-6">
+                    @Html.EditorFor(model => model.Vacuna)
+                </div>
+            </div>
+            </br>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript">
+        $("#btnAdd").on('click', function () {
+            $.ajax({
+                async: true,
+                data: $('#form').serialize(),
+                type: "POST",
+                url: '/Consulta/AddConsultaVacuna',
+                success: function (partialView) {
+                    console.log("partialView: " + partialView);
+                    $('#ConsultaVacunaContainer').html(partialView);
+                }
+            });
+        });
+    </script>
+}

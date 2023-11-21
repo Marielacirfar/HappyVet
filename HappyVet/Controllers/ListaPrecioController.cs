@@ -206,8 +206,7 @@ namespace HappyVet.Controllers
                     {
                         Descripcion = fila.GetCell(0).ToString(),
                         VacunaRefId = Int16.Parse(fila.GetCell(1).ToString()),
-                        Precio = Decimal.Parse(fila.GetCell(2).ToString()),
-                        FechaRegistro = DateTime.Now
+                        Precio = Decimal.Parse(fila.GetCell(2).ToString())
 
                     });
                 }
@@ -254,8 +253,7 @@ namespace HappyVet.Controllers
                     {
                         Descripcion = fila.GetCell(0).ToString(),
                         VacunaRefId = Int16.Parse(fila.GetCell(1).ToString()),
-                        Precio = Decimal.Parse(fila.GetCell(2).ToString()),
-                        FechaRegistro = DateTime.Now
+                        Precio = Decimal.Parse(fila.GetCell(2).ToString())
 
                     });
                 }

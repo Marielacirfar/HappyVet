@@ -1,0 +1,90 @@
+﻿@model IEnumerable<HappyVet.Models.Consulta>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";//
+}
+
+<h1>Consulta</h1>
+
+<p>
+    <div class="row">
+        <div class="col-sm">
+            <a asp-action="Create" class="btn btn-primary">Programar Consulta</a>
+        </div>
+    </div>
+</p>
+<form asp-action="Index" method="get">
+   @*  <div class="row">
+        <div class="col">
+            <label class="control-label">ResgistroMascota:</label>
+            <select name="RegistroMascotaRefId" class="form-control" asp-items="ViewBag.RegistroMascotaRefId">
+                <option value="">Seleccione un Registro</option>
+            </select>
+        </div>
+        <div class="col">
+            <label class="control-label">Vacuna:</label>
+            <select name="VacunaRefId" class="form-control" asp-items="ViewBag.VacunaRefId">
+                <option value="">Seleccione una Vacuna</option>
+            </select>
+        </div>
+        <div class="col">
+            <br />
+            <input type="submit" value="Buscar" id="submit" class="btn btn-warning" />
+        </div>
+    </div> *@
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaHoraConsulta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegistroMascota)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vacuna)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.FechaRegistro)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaHoraConsulta)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.RegistroMascota.Descripcion) - @Html.DisplayFor(modelItem => item.RegistroMascota.TipoAnimal.Descripcion) -  @Html.DisplayFor(modelItem => item.RegistroMascota.Raza.Descripcion) --  @Html.DisplayFor(modelItem => item.RegistroMascota.Edad.Descripcion)
+            </td>
+              @* <td>
+                    
+                    @Html.DisplayFor(modelItem => item.Vacuna)
+            </td> *@  
+                <td>
+                        <ul>
+                        @for (int i = 0; i< item.Vacuna.Count(); i++)
+                        {
+                            <li>@item.Vacuna[i].Vacuna.Descripcion</li>
+                        }
+                    </ul> 
+                </td>
+              
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaRegistro)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+

@@ -17,10 +17,63 @@ namespace HappyVet.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.13")
+                .HasAnnotation("ProductVersion", "7.0.14")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("HappyVet.Models.Consulta", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("FechaHoraConsulta")
+                        .IsRequired()
+                        .HasColumnType("smalldatetime");
+
+                    b.Property<DateTime?>("FechaRegistro")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("RegistroMascotaRefId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RegistroMascotaRefId");
+
+                    b.ToTable("Consulta");
+                });
+
+            modelBuilder.Entity("HappyVet.Models.ConsultaVacuna", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("ConsultaId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("VacunaRefId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ConsultaId");
+
+                    b.HasIndex("VacunaRefId");
+
+                    b.ToTable("ConsultaVacunas");
+                });
 
             modelBuilder.Entity("HappyVet.Models.Detalle", b =>
                 {
@@ -246,6 +299,32 @@ namespace HappyVet.Migrations
                     b.ToTable("Vacunas");
                 });
 
+            modelBuilder.Entity("HappyVet.Models.Consulta", b =>
+                {
+                    b.HasOne("HappyVet.Models.RegistroMascota", "RegistroMascota")
+                        .WithMany()
+                        .HasForeignKey("RegistroMascotaRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("RegistroMascota");
+                });
+
+            modelBuilder.Entity("HappyVet.Models.ConsultaVacuna", b =>
+                {
+                    b.HasOne("HappyVet.Models.Consulta", null)
+                        .WithMany("Vacuna")
+                        .HasForeignKey("ConsultaId");
+
+                    b.HasOne("HappyVet.Models.Vacuna", "Vacuna")
+                        .WithMany()
+                        .HasForeignKey("VacunaRefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Vacuna");
+                });
+
             modelBuilder.Entity("HappyVet.Models.Detalle", b =>
                 {
                     b.HasOne("HappyVet.Models.ListaPrecio", "ListaPrecio")
@@ -295,6 +374,11 @@ namespace HappyVet.Migrations
                     b.Navigation("Tamaño");
 
                     b.Navigation("TipoAnimal");
+                });
+
+            modelBuilder.Entity("HappyVet.Models.Consulta", b =>
+                {
+                    b.Navigation("Vacuna");
                 });
 #pragma warning restore 612, 618
         }

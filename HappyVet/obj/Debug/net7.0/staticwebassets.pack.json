@@ -17,8 +17,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\023880c8-c00d-4647-b8a0-19ff5170290e_Gato_persa_Cachorro.jpg",
+      "PackagePath": "staticwebassets\\images\\023880c8-c00d-4647-b8a0-19ff5170290e_Gato_persa_Cachorro.jpg"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\046b7cce-aa8e-4558-9761-4965fa9d4305_Chow_Chow.jpg",
       "PackagePath": "staticwebassets\\images\\046b7cce-aa8e-4558-9761-4965fa9d4305_Chow_Chow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\24a9b0f0-25b8-4811-b9fa-231ce70db4f0_Milo.jpg",
+      "PackagePath": "staticwebassets\\images\\24a9b0f0-25b8-4811-b9fa-231ce70db4f0_Milo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\2a6ccb16-44dc-4c56-a24a-23ba918248fc_himalayo_cachorro.jpg",
+      "PackagePath": "staticwebassets\\images\\2a6ccb16-44dc-4c56-a24a-23ba918248fc_himalayo_cachorro.jpg"
     },
     {
       "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\3b0bb32f-a9de-49e7-a51b-cc24227fe367_Gato_persa_Cachorro.jpg",
@@ -27,6 +39,18 @@
     {
       "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\40b6a3c3-b50d-46a8-a7cc-75e56d88aeb6_Mestizo.jpg",
       "PackagePath": "staticwebassets\\images\\40b6a3c3-b50d-46a8-a7cc-75e56d88aeb6_Mestizo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\4939a40d-d851-4059-92d3-55e3e675b604_Luna.jpg",
+      "PackagePath": "staticwebassets\\images\\4939a40d-d851-4059-92d3-55e3e675b604_Luna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\53cc455e-92db-481b-ba60-700e7e06740b_Gala.jpg",
+      "PackagePath": "staticwebassets\\images\\53cc455e-92db-481b-ba60-700e7e06740b_Gala.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\6f2b7bdd-e6e5-45f3-b2f5-a8091d5ee525_Luna.jpg",
+      "PackagePath": "staticwebassets\\images\\6f2b7bdd-e6e5-45f3-b2f5-a8091d5ee525_Luna.jpg"
     },
     {
       "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\7304424e-1000-4e3d-81fc-04e66f93a39c_Gato_persa_Cachorro.jpg",
@@ -41,8 +65,16 @@
       "PackagePath": "staticwebassets\\images\\7add9cd5-d430-4f2a-974a-91886aa94677_Maltes_adulto.jpg"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\88cf3c80-b46e-4daf-a66c-af49480eec03_Gala (1).jpg",
+      "PackagePath": "staticwebassets\\images\\88cf3c80-b46e-4daf-a66c-af49480eec03_Gala (1).jpg"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\8ab060a7-5eff-450d-88ff-af18828c01db_gato_Siames_Adulto.jpg",
       "PackagePath": "staticwebassets\\images\\8ab060a7-5eff-450d-88ff-af18828c01db_gato_Siames_Adulto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\Compañeras.jpg",
+      "PackagePath": "staticwebassets\\images\\Compañeras.jpg"
     },
     {
       "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\a7a1e716-2952-421e-a10f-ba996feb0bdd_gato_Siames_Adulto.jpg",
@@ -65,6 +97,10 @@
       "PackagePath": "staticwebassets\\images\\b5187070-0eaa-4f3f-abb6-f87cc63f9e61_Bichon-Maltes.jpg"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\bb42e507-2d64-4108-b269-4fa4ed756548_Compañeras.jpg",
+      "PackagePath": "staticwebassets\\images\\bb42e507-2d64-4108-b269-4fa4ed756548_Compañeras.jpg"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\c305d181-3048-4bf0-aef6-84935a055039_Chow_Chow.jpg",
       "PackagePath": "staticwebassets\\images\\c305d181-3048-4bf0-aef6-84935a055039_Chow_Chow.jpg"
     },
@@ -79,6 +115,14 @@
     {
       "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\cd85ccec-bbbf-4bc8-b1ca-9e55375d8c6d_Maltes_adulto.jpg",
       "PackagePath": "staticwebassets\\images\\cd85ccec-bbbf-4bc8-b1ca-9e55375d8c6d_Maltes_adulto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\d4d7e3a3-96e2-4a03-9080-345c3c7e22d9_Maltes_adulto.jpg",
+      "PackagePath": "staticwebassets\\images\\d4d7e3a3-96e2-4a03-9080-345c3c7e22d9_Maltes_adulto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\e5b21237-32ef-4f71-8c65-ad92f570b806_Bichon-Maltes.jpg",
+      "PackagePath": "staticwebassets\\images\\e5b21237-32ef-4f71-8c65-ad92f570b806_Bichon-Maltes.jpg"
     },
     {
       "Id": "C:\\Users\\Usuario\\Documents\\HappyVet\\HappyVet\\wwwroot\\images\\ed8a8773-d075-4ca0-b67c-d8a12f352fdd_Mestizo.jpg",

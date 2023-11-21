@@ -40,8 +40,7 @@
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Tamaño" asp-action="Index">Tamaño</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Edad" asp-action="Index">Edad</a></li>
                                 
-                                <li>----------------------</li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="SignOut">Salir</a></li>
+                               
                             </ul>
                         </div>
 
@@ -65,31 +64,29 @@
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Consulta
                             </button>
-                            <ul class="dropdown-menu" style="">
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Programar" asp-action="Index">Programar</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Funcion" asp-action="Index">Función</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="Pedido" asp-action="Index">Pedido</a></li>
-
-
+                            <ul class="dropdown-menu" style="">                                
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Consulta" asp-action="Index">Consulta</a></li>
                             </ul>
                         </div>
 
 
                     </ul>
+                </div>
             </div>
         </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3" " style=" background-color: rgb(222,214,240);">
+        <main role="main" class="pb-3" style=" background-color: rgb(222,214,240);">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="bPedido-top footer text-muted">
         <div class="container">
-            &copy; 2023 - HappyVet - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <a>&copy; 2023 - HappyVet - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
